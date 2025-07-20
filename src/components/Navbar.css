@@ -1,17 +1,16 @@
-.navbar-container {
-  background-color: #ffffff;
-  padding: 15px 20px;
-  box-shadow: 0px 2px 5px rgba(0,0,0,0.1);
-}
+import React from 'react';
+import './Navbar.css';
+// import logo from '../assets/logo.svg'; // Optional: add logo if available
 
-.navbar-content {
-  display: flex;
-  align-items: center;
-}
+const Navbar = () => {
+  return (
+    <div className="navbar-container">
+      <div className="navbar-content">
+        <h2 className="navbar-title">Jatin's DevOps Cloud Engineer </h2>
+        {/* <img src={logo} alt="Logo" className="navbar-logo" /> */}
+      </div>
+    </div>
+  );
+};
 
-.navbar-title {
-  font-size: 24px;
-  font-weight: bold;
-  color: #0b5ed7; /* Blue color */
-  font-family: Arial, sans-serif;
-}
+export default Navbar;
