@@ -1,15 +1,13 @@
 import React from 'react';
 import './Navbar.css';
-// import logo from '../assets/logo.svg'; // Optional: add logo if available
 
 const Navbar = () => {
   return (
-    <div className="navbar-container">
+    <header className="navbar-container">
       <div className="navbar-content">
-        <h2 className="navbar-title">Jatin's DevOps Cloud Engineer </h2>
-        {/* <img src={logo} alt="Logo" className="navbar-logo" /> */}
+        <h2 className="navbar-title">Jatin's DevOps Cloud Engineer</h2>
       </div>
-    </div>
+    </header>
   );
 };
 
